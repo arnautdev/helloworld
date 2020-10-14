@@ -1,0 +1,11 @@
+{
+    "name": "arnautdev/helloworld",
+    "description": "Test composer package",
+    "authors": [
+        {
+            "name": "dmitryArnaut",
+            "email": "dmitrii.arnaut@gmail.com"
+        }
+    ],
+    "require": {}
+}
