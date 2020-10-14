@@ -1,11 +1,16 @@
 {
-    "name": "arnautdev/helloworld",
-    "description": "Test composer package",
-    "authors": [
-        {
-            "name": "dmitryArnaut",
-            "email": "dmitrii.arnaut@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "arnautdev/helloworld",
+  "description": "Test composer package",
+  "authors": [
+    {
+      "name": "dmitryArnaut",
+      "email": "dmitrii.arnaut@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {}
 }
