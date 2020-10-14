@@ -8,10 +8,16 @@ use App\includes\BaseFunctions;
 
 class HelloWorldApp
 {
+    /**
+     * @var BaseFunctions
+     */
+    public $settings;
 
-    public function run()
+    /**
+     * HelloWorldApp constructor.
+     */
+    public function __construct()
     {
-        $baseFunctions = new BaseFunctions();
-        print($baseFunctions->test());
+        $this->settings = new BaseFunctions();
     }
 }

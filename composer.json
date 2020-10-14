@@ -1,5 +1,6 @@
 {
   "name": "arnautdev/helloworld",
+  "version": "1.0.0",
   "description": "Test composer package",
   "authors": [
     {
