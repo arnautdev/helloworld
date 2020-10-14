@@ -11,7 +11,7 @@ class HelloWorldApp
     /**
      * @var BaseFunctions
      */
-    public $settings;
+    private $settings;
 
     /**
      * HelloWorldApp constructor.
@@ -19,5 +19,14 @@ class HelloWorldApp
     public function __construct()
     {
         $this->settings = new BaseFunctions();
+    }
+
+    /**
+     * Get settings object
+     * @return BaseFunctions
+     */
+    public function getSettings()
+    {
+        return $this->settings;
     }
 }
